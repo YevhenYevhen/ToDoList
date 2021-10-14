@@ -1,0 +1,26 @@
+
+.itemWrapper{
+    display: flex;
+    justify-content: space-between;
+    max-width: 300px;
+    border-radius: 4px;
+    margin: 5px;
+    background-color: yellow;
+}
+
+.item{
+    font-weight: 600;
+    margin: 10px;
+}
+
+.completed{
+    text-decoration: line-through;
+    margin: 10px;
+}
+
+.remover{
+    margin: 10px;
+    width: 15px;
+    height: 15px;
+    cursor: pointer;
+}

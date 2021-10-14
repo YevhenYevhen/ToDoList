@@ -1,0 +1,47 @@
+.wrapper{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container{
+  border: 2px solid rgb(179, 179, 179);
+  background-color: rgb(253, 246, 246);
+  border-radius: 8px;
+  height: 500px;
+  width: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  overflow: auto;
+}
+
+header{
+  background-color: black;
+  height: 80px;
+  margin-top: -22px;
+  padding: 10px;
+  color: #fff;
+}
+
+.formContainer{
+  width: 300px;
+}
+
+.form{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 0 0 0;
+}
+
+.form input{
+  margin: 0 10px 10px;
+  flex-grow: 1;
+}
+
+.saveButton{
+  width: 100px;
+  margin: 0 10px 10px;
+}
